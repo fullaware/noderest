@@ -1,5 +1,5 @@
 # noderest
-NodeJS + Restify to provide simple collection of data to flat file.  
+[NodeJS](https://nodejs.org/) + [Restify](http://restify.com/) to provide simple collection of data to flat file.  
 Created to collect sensor data from Arduino and ESP8266 based IoT devices.
 
 This will literally take anything after /log/ and put it in a file.  
