@@ -10,7 +10,7 @@ function respond(req, res, next) {
      if (error) { 
        console.error('write error:  ' + error.message); 
      } else { 
-       console.log('Successful write ' + req.params.sensorvar + 'to ' + path); 
+       console.log('Successful write ' + req.params.sensorvar + ' to ' + path); 
      } 
 }); 
 } 
