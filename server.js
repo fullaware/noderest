@@ -5,7 +5,7 @@ var path = 'test.csv';
 function respond(req, res, next) { 
   res.send('hello ' + req.params.sensorvar); 
   next(); 
-// Writes namevar to test.txt and sends line 
+
   fs.appendFile(path, req.params.sensorvar + '\r\n', function(error) { 
      if (error) { 
        console.error('write error:  ' + error.message); 
