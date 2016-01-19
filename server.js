@@ -1,6 +1,6 @@
 var restify = require('restify'); 
 var fs = require('fs'); 
-var path = 'test.csv'; 
+var path = 'sensorlog.json'; 
  
 function respond(req, res, next) { 
   res.send('hello ' + req.params.sensorvar); 
